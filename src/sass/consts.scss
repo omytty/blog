@@ -1,0 +1,39 @@
+$path_static: './static';
+
+$color_dodger_blue: #1E90FF;
+.bg_dodger_blue {
+    background-color: $color_dodger_blue;
+}
+$color_orange: #FFA500;
+.bg_orange {
+    background-color: $color_orange;
+}
+.color_orange {
+    color: $color_orange;
+}
+$color_medium_sg: #00FA9A;
+.bg_medium_sg {
+    background-color: $color_medium_sg;
+}
+.color_medium_sg {
+    color: $color_medium_sg;
+}
+$color_gold: #FFD700;
+.bg_gold {
+    background-color: $color_gold;
+}
+$color_light: #FFFAFA;
+.bg_light {
+    background-color: $color_light;
+}
+$color_sea_green: #2E8B57;
+.color_sea_green {
+    color: $color_sea_green;
+}
+
+.bg_light_stripe {
+    background-image: repeating-linear-gradient(45deg,$color_light,$color_light 30px,#FFF 0,#FFF 60px);
+}
+.bg_paper_dark {
+    background-color: #f5ebdb;
+}

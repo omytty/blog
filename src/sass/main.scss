@@ -1,0 +1,58 @@
+@import "consts";
+@import "fonts";
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+[model="header"] {
+    .logo_text {
+        color: rgb(22, 117, 211);
+        // border-bottom: 2px solid rgb(22, 117, 211);
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-item.active .nav-link {
+        font-size: 1.2rem;
+        .link_point {
+            display: inline-block;
+            border-radius: 100%;
+            width: 1rem;
+            height: 1rem;
+            vertical-align: middle;
+        }
+    }
+}
+
+[model="index"] {
+    .loglist {
+        border: 0 !important;
+        .header {
+            color: $color_dodger_blue;
+            border-bottom: 2px dashed #B0C4DE !important;
+        }
+        li.list-group-item {
+            a {
+                color: #4682B4;
+            }
+            .number_label {
+                display: block;
+                position: relative;
+                top: 1.5rem;
+                float: left;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .button-gp {
+        .circle-button {
+            width: 8rem;
+            height: 8rem;
+            text-align: center;
+            line-height: 8rem;
+            color: white;
+        }
+    }
+}
